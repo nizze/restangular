@@ -70,6 +70,7 @@ It's a perfect fit for any WebApp that consumes data from a RESTful API.
     - [When I set baseUrl with a port, it's stripped out.](#when-i-set-baseurl-with-a-port-its-stripped-out)
     - [How can I access the unrestangularized element as well as the restangularized one?](#how-can-i-access-the-unrestangularized-element-as-well-as-the-restangularized-one)
     - [Why does this depend on Lodash / Underscore?](#why-does-this-depend-on-lodash--underscore)
+    - [What about CSRF token in Rails?](#what-about-csrf-token-in-rails)
 - [Supported Angular versions](#supported-angular-versions)
 - [Server Frameworks](#server-frameworks)
 - [Releases Notes](#releases-notes)
@@ -944,6 +945,9 @@ This is a very good question. I could've done the code so that I don't depend on
 With these libraries, you always work with immutable stuff, you get compatibility for browsers which don't implement ECMA5 nor some of these cool methods, and they're actually quicker.
 So, why not use it? If you've never heard of them, by using Restangular, you could start using them. Trust me, you're never going to give them up after this!
 
+#### What about CSRF token in Rails?
+
+Take a look at https://github.com/xrd/ng-rails-csrf and follow instructions.
 
 # Supported Angular versions
 
